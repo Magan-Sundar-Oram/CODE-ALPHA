@@ -177,6 +177,28 @@ button:hover::before {
     /* box-shadow: 5px 5px #3498dbb9; */
 }
 
+#footer{
+    /* border: 2px solid lightblue; */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 20px;
+    left: 50px;
+}
+#footer img{
+    width: 30px;
+}
+#footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+#footer a:hover{
+    color: #3498db;
+}
 
 /* MEDIA QUERY DOWN HERE */
 
@@ -252,4 +274,20 @@ button:hover::before {
     #weather-action-box {
         flex-direction: column;
     }
+    #footer{
+        border: 1px solid #3498db;
+        width: 80vw;
+        margin: auto;
+        border-radius: 5px;
+        justify-content: center;
+        bottom: 20px;
+    }
+    #footer img{
+        width: 20px;
+    }
+    #footer a{
+        font-size: 17px;
+        font-weight: 100;
+    }
+    
 }
