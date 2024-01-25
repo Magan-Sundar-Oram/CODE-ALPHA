@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER DASHBOARD</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main-container">
+        <div id="loader"></div>
+
+        <div id="weather-container">
+            <div id="weather-action-box">
+                <input type="text" id="city-input" placeholder="Enter city name">
+                <div id="weather-btn">
+                    <button class="btn" id="getWeatherBtn">Get Weather</button>
+                    <button class="btn" id="weather-location">Weather By Location</button>
+                </div>
+            </div>
+
+            <div id="weather-info-box">
+
+                <div id="city-box">
+                    <div id="city-name"></div>
+                </div>
+
+                <div id="weather-info">
+                    <h3>Wanna know Your City Weather...</h3>
+                    <h3>Just Type your City or Click Location Button </h3>
+                </div>
+            </div>
+
+        </div>
+        <div id="map"></div>
+    </div>
+
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="">
+        </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
