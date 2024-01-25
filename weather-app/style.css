@@ -281,6 +281,7 @@ button:hover::before {
         border-radius: 5px;
         justify-content: center;
         bottom: 20px;
+        background-color: black;
     }
     #footer img{
         width: 20px;
