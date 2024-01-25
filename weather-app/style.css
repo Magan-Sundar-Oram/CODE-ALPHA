@@ -226,7 +226,7 @@ button:hover::before {
         text-align: center;
         letter-spacing: 5px;
         font-size: 2.5rem;
-        font-weight: 300;
+        font-weight: 500;
     }
 
     #weather-info-box {
